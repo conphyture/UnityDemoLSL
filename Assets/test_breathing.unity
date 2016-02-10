@@ -111,13 +111,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1078424686}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e752ff8a3544c84c9518e5f4dc2b39a, type: 3}
+  m_Script: {fileID: 11500000, guid: 616db78b93ba23c49a889ed8eda255cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   streamName: breath
   streamType: tobe
-  Breathe: 0
   maxWindowSize: 10
+  value: 0
+  lastTrigger: 0
+  trigger: 0
+  verbose: 1
 --- !u!4 &1078424688
 Transform:
   m_ObjectHideFlags: 0
