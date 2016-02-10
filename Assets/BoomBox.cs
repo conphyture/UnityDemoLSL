@@ -16,7 +16,7 @@ public class BoomBox : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		float value = modifier.Breathe;
+		float value = modifier.value;
 		target.gameObject.transform.localScale = new Vector3 (value, value, value);
 	
 	}
