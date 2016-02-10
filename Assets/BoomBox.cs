@@ -7,7 +7,7 @@ using System.Collections;
 public class BoomBox : MonoBehaviour {
 
 	public GameObject target;
-	public LSLControllerBreathe modifier;
+	public LSLController modifier;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +16,7 @@ public class BoomBox : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		float value = modifier.Breathe;
+		float value = modifier.value;
 		target.gameObject.transform.localScale = new Vector3 (value, value, value);
 	
 	}

@@ -114,6 +114,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e752ff8a3544c84c9518e5f4dc2b39a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  streamName: breath
+  streamType: tobe
   Breathe: 0
   maxWindowSize: 10
 --- !u!4 &1078424688
