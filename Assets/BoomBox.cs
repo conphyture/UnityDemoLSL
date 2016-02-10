@@ -7,7 +7,7 @@ using System.Collections;
 public class BoomBox : MonoBehaviour {
 
 	public GameObject target;
-	public LSLControllerBreathe modifier;
+	public LSLController modifier;
 
 	// Use this for initialization
 	void Start () {
